@@ -1,2 +1,2 @@
-opencafe-docker
+docker-cafe
 ===============
