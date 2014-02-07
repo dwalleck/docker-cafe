@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y git python-pip python-dev make build-essential
 
 # Workaround for race condition in OpenCafe plugin setup
-RUN pip install ecdsa
+RUN pip install paramiko
 
 # Clone the repositories and install
 RUN git clone https://github.com/stackforge/opencafe.git
