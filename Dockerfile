@@ -15,7 +15,7 @@ RUN pip install ./cloudcafe
 RUN pip install ./cloudroast
 
 # Install the remote client plugins
-cafe-config plugins install ssh
-cafe-config plugins install winrm
+RUN cafe-config plugins install ssh
+RUN cafe-config plugins install winrm
 
 CMD bash
